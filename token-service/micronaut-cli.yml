@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: token.service
+---
+testFramework: junit
+sourceLanguage: java

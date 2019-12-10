@@ -1,0 +1,7 @@
+micronaut:
+  server:
+    port: 8081
+  application:
+    name: token-service
+jwt:
+  issuer: bogus
