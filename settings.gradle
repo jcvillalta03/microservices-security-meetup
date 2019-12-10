@@ -10,3 +10,4 @@
 rootProject.name = 'microservices-security-meetup'
 
 include 'token-service'
+include 'airline-service'
