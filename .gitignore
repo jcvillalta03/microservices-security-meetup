@@ -3,6 +3,7 @@
 
 # Ignore Gradle project-specific cache directory
 **/.gradle
+**/.gradletasknamecache
 
 # Ignore IntelliJ build output directory
 **/out/
@@ -14,14 +15,35 @@
 **/*.iml
 **/*.ipr
 **/*.iws
-**/.project
-**/.settings/
+
+### STS ###
+**/.apt_generated
 **/.classpath
-**/.vscode
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
+
+### NetBeans ###
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+### VS Code ###
+**/.vscode/
+
+## Log files ##
+**/logs/**/*
 
 # Ignore bin directories
 **/bin
 
-#Ignore MacOS files
+# Ignore MacOS files
 **/.DS_Store
 **/Thumbs.db
+
+# Misc
+**/HELP.md
