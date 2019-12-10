@@ -8,3 +8,5 @@
  */
 
 rootProject.name = 'microservices-security-meetup'
+
+include 'token-service'
